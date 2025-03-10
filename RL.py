@@ -242,7 +242,7 @@ def plot_2d_surface(means, sigmas, weights, model, scaler_x, scaler_y, title="2D
 
     fig.colorbar(surf1, ax=ax, shrink=0.5, aspect=5)
     plt.suptitle(title)
-    plt.savefig("2D surface")
+    plt.savefig("2D_surface")
 
     return local_max_z_true
 
@@ -281,7 +281,7 @@ def plot_1d_curve(means, sigmas, weights, model, scaler_x, scaler_y, title="1D C
     plt.title(title)
     plt.legend()
     plt.grid()
-    plt.savefig("1D curve")
+    plt.savefig("1D_curve")
 
     return local_max_y_true
 
@@ -381,7 +381,7 @@ def main():
     elif n == 2:
         ymax=plot_2d_surface(means, sigmas, weights, rl.model, rl.scaler_x, rl.scaler_y, title="2D Contour Plot")
     else:
-        ymax, best_point = plot_higher_dimensional_max(means, sigmas, weights, rl.model, rl.scaler_x, rl.scaler_y, n, title="Higher Dimensional Max Search")
+        ymax, best_point = plot_higher_dimensional_max(means, sigmas, weights, rl.model, rl.scaler_x, rl.scaler_y, n, title="Higher_Dimensional_Max Search")
     # 绘制对比曲线
     plt.figure(figsize=(10, 6))
     plt.plot(ga_call_counts, ga_best_fitness, label='Genetic Algorithm')
@@ -389,12 +389,12 @@ def main():
 
     plt.plot([0, max_calls], [ymax, ymax], label='Black Box')
 
-    plt.xlabel('Number of Black-Box Function Calls')
-    plt.ylabel('Best Fitness')
-    plt.title('Comparison of Optimization Algorithms')
+    plt.xlabel('Number_of_Black-BoxFunction_Calls')
+    plt.ylabel('Best_Fitness')
+    plt.title('Comparison_of_Optimization_Algorithms')
     plt.legend()
     plt.grid()
-    plt.savefig("Comparison of "+str(n)+" dimension(s)")
+    plt.savefig("Comparison_of_ "+str(n)+"_dimension(s)")
 
 if __name__ == '__main__':
     main()

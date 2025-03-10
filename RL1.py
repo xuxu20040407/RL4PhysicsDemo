@@ -284,12 +284,12 @@ def main():
     plt.plot(rl_call_counts, rl_avg_best_fitness, label='Reinforcement Learning')
     plt.plot([0,100],[1,1],label='True')
 
-    plt.xlabel('Number of Black-Box Function Calls')
-    plt.ylabel('Normalized Best Fitness')
-    plt.title('Comparison of Optimization Algorithms')
+    plt.xlabel('Number_of_Black-Box_Function_Calls')
+    plt.ylabel('Normalized_Best_Fitness')
+    plt.title('Comparison_of_Optimization_Algorithms')
     plt.legend()
     plt.grid()
-    plt.savefig("Comparison of " + str(n) + " dimension(s) of 10 cirs")
+    plt.savefig("Comparison_of_" + str(n) + "_dimension(s)_of_100_cirs")
 
 if __name__ == '__main__':
     main()

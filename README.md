@@ -33,7 +33,7 @@ Average of 100 circles:
 ![alt](Comparison_of_2_dimension(s).png)
 
 Average of 10 circles:
-![alt](1D_cComparison_of_2_dimension(s)_of_10_cirsurve.png)
+![alt](1D_cComparison_of_2_dimension(s)_of_10_cirs.png)
 
 ## 3D
 

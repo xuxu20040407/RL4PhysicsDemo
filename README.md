@@ -18,26 +18,26 @@ Obviously, RL method has no ability to jump out of the minima -  it can be solve
 # Result
 ## 1D
 1D curve:
-![alt](1D_curve.png)
+![alt](./Backup/1D_curve.png)
 
-![alt](Comparison_of_1_dimension(s).png)
+![alt](./Backup/Comparison_of_1_dimension(s).png)
 
 Average of 100 circles:
-![alt](Comparison_of_1_dimension(s)_of_100_cirs.png)
+![alt](./Backup/Comparison_of_1_dimension(s)_of_100_cirs.png)
 
 ## 2D
 2D surface:
-![alt](2D_surface.png)
+![alt](./Backup/2D_surface.png)
 
 
-![alt](Comparison_of_2_dimension(s).png)
+![alt](./Backup/Comparison_of_2_dimension(s).png)
 
 Average of 10 circles:
-![alt](Comparison_of_2_dimension(s)_of_10_cirs.png)
+![alt](./Backup/Comparison_of_2_dimension(s)_of_10_cirs.png)
 
 ## 3D
 
-![alt](Comparison_of_3_dimension(s).png)
+![alt](./Backup/Comparison_of_3_dimension(s).png)
 
 
 
